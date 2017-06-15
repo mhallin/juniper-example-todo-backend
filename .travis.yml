@@ -1,0 +1,5 @@
+language: rust
+
+before_script:
+  - cargo install --no-default-features --features sqlite diesel_cli
+  - diesel migration run

@@ -1,0 +1,16 @@
+[package]
+name = "juniper-example-todo-backend"
+version = "0.1.0"
+authors = ["Magnus Hallin <mhallin@fastmail.com>"]
+
+[dependencies]
+juniper = { version = "0.8.0", features = ["iron-handlers"] }
+
+diesel = { version = "0.13.0", features = ["sqlite"] }
+diesel_codegen = { version = "0.13.0", features = ["sqlite"] }
+dotenv = "0.8"
+
+iron = "0.5.1"
+router = "0.5.1"
+mount = "0.3.0"
+logger = "0.3.0"
